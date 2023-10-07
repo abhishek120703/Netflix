@@ -1,0 +1,384 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: #000;
+    color: #fff;
+
+}
+.header{
+    width: 100%;
+    height:100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(images/h-img.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+    position: relative;
+    border-bottom: solid 10px rgb(88, 88, 88);
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.logo{
+    width: 150px;
+}
+nav button{
+    border: 1px;
+    outline: 0;
+    background: #db0001;
+    color:#fff;
+    font-size: 12px;
+    border-radius: 4px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.language-btn{
+    display: inline-flex;
+    align-items: center;
+    background: transparent;
+    border: 1px solid #fff;
+    padding: 7px 10px;
+
+}
+language-btn img{
+    width: 10px;
+    margin-left: 10px;
+}
+
+/* from here */
+
+#fir{
+    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Croissant One', cursive;
+    font-family: 'EB Garamond', serif;
+    font-size: 50px;
+    position:relative;
+    bottom: 70px;
+    line-height: 0;
+}
+#sec{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    position:relative;
+    line-height: 0;
+}
+#language{
+    text-align: center;
+    width:126.4px;
+    height:32px;
+    color: #ffffff;
+    border:#433f3f solid 1px;
+    border-radius: 5px;
+    background-color: rgba(31, 30, 30, 0.9);
+}
+.lan1{
+    position: relative;
+    left:410px;
+    text-align: center;
+    height:20px;
+    color: #ffffff;
+    background-color: rgba(41, 38, 38, 0.8);
+}
+.lan2{
+    position: relative;
+    left:32px;
+    top:4px;
+    text-align: center;
+    height:20px;
+    color: #ffffff;
+    background-color: rgba(41, 38, 38, 0.8);
+}
+#last{
+    position:relative;
+    right:30px;
+}
+.signin{
+    background-color:#e50914;
+    color: #ffffff;
+    width:76.9px;
+    height:32px;
+    border: solid rgba(90, 82, 82, 0);
+    border-radius: 5px;
+    position:relative;
+    right:50px;
+}
+#lg{
+    position: relative;
+    left:50px;
+}
+.lg{
+    position: relative;
+    right:60px;
+}
+#f{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-bottom: solid 10px rgb(88, 88, 88);; 
+}
+#email1{
+    display:inline;
+    height: 53px;
+    width: 350px;
+    border:solid rgba(255,255,255,0.7) 0.1px;
+    border-radius: 5px;
+    background-color: rgba(45, 45, 45, 0.8);
+    padding-left:12px;
+    font-size: 17px;
+}
+#email2{
+    display:inline;
+    height: 53px;
+    width: 350px;
+    border:solid rgba(255,255,255,0.7) 0.1px;
+    border-radius: 5px;
+    background-color: rgba(45, 45, 45, 0.8);
+    padding-left:12px;
+    font-size: 17px;
+}
+#get1{
+    font-size: 20px;
+    border:solid #e50914;
+    border-radius: 5px;
+    background-color: #e50914;
+    color:#ffffff;
+    height: 55px;
+    width:200px;
+    margin:10px;
+    position:relative;
+    top:3.5px;
+}
+#get2{
+    font-size: 20px;
+    border:solid #e50914;
+    border-radius: 5px;
+    background-color: #e50914;
+    color:#ffffff;
+    height: 55px;
+    width:200px;
+    margin:10px;
+    position:relative;
+    top:3.5px;
+}
+#lbl{
+    font-size: 20px;
+    margin-top:40px;
+}
+/* To here */
+.header-content{
+    position: relative;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%,-40%);
+    text-align: center;
+    margin-top: 100px;
+}
+.header-conten h1{
+    font-size: 60px;
+    line-height: 70px;
+    font-weight: 600;
+    max-width: 650px;
+}
+header-conten h3{
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.email-signup button{
+    background: #db0001;
+    border: 0;
+    outline: 0;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 15px 30px;
+    
+}
+.features{
+    padding: 50px 12%;
+    font-size: 22px;
+}
+.row{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
+.text-col{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+.img-col{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+.img-col img{
+    display: block;
+    width: 90%;
+    margin: auto;
+}
+.features h2{
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+/*---------------faq--------------*/
+.faq{
+    padding: 10px 12%;
+    text-align: center;
+    font-size: 18px;
+}
+.accordion{
+    margin:60px auto;
+    width: 100%;
+    max-width: 1100px;
+}
+.accordion li{
+    list-style: none;
+    width: 100%;
+    padding: 5px;
+    
+}
+.accordion li label{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    background: #303030;
+    margin-bottom: 2px;
+    cursor: pointer;
+    position: relative;
+
+}
+label::after{
+    content: '+';
+    font-size: 34px;
+    position: absolute;
+    right: 20px;
+    transition: transform 0.5s;
+}
+input[type="radio"]{
+    display: none;
+}
+.accordion .content{
+    background: #303030;
+    text-align: left;
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden; 
+    transition: max-height 0.5s, padding 0.5s; 
+}
+.accordion input[type="radio"]:checked + label + .content{
+    max-height: 600px;
+    padding: 30px 20px;
+}
+.accordion input[type="radio"]:checked + label::after{
+    transform: rotate(135deg);
+}
+.faq .email-signup{
+    max-width: 600px;
+    margin: 20px auto 60px;
+}
+.faq h2{
+    font-size: 50px;
+}
+
+/* --------------------footer-------------------- */
+.footer{
+    padding: 50px 15% 10px;
+    border-top: 10px solid #333;
+    color: #ffffffB3;
+}
+.footer h2{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.footer .col{
+    flex-basis: 25%;
+    flex-grow: 1;
+    margin-bottom: 20px;
+}
+.footer .col a{
+    display: block;
+    text-decoration-line: underline;
+    color: #ffffffB3;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.footer .row{
+    align-items: flex-start;
+    padding: 10px 0;
+}
+.footer .language-btn{
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 3px;
+}
+.copyright-txt{
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 63px;
+}
+
+/* --------------------media-quaries-for-small-screen------------*/
+@media only screen and (max-width: 600px){
+.logo{
+    width: 100px;
+}
+nav botton{
+    padding: 5px 10px;
+}
+nav .language-btn{
+    padding: 4px 8px;
+}
+.header-content{
+    position: unset;
+    transform: none;
+    padding-top: 150px;
+}
+.header-conten h1{
+    font-size: 30px;
+}
+.email-signup button{
+    font-size: 12px;
+    padding: 10px 15px;
+}
+.text-col, .img-col{
+    flex-basis: 100%;
+}
+.features h2{
+    font-size: 30px;    
+}
+.features p{
+    font-size: 15px;
+}
+.row:nth-child(2), .row:nth-child(4){
+    flex-direction: column-reverse;
+}
+.features .row{
+    padding: 10px 0;
+
+}
+    
+.accordion .content{
+    font-size: 14px;
+}
+.accordion li lable{
+    padding: 10px;
+    font-size: 14px;
+}
+lable::after{
+    font-size: 22px;
+}
+}
